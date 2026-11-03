@@ -1,0 +1,94 @@
+
+/* CSS VARIABLES */
+
+:root {
+    --dark-blue: #193e54;
+    --light-blue: #edf4f8;
+    --border-color: #cbd9e2;
+    --brand-color: #dcebea;
+    --white: #ffffff;
+}
+
+/* BODY */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    padding: 30px;
+}
+
+/* HEADING */
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #61798b;
+}
+
+/* TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    background-color: white;
+}
+
+/* CAPTION */
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* TABLE HEADER AND FOOTER */
+
+thead {
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+th, td {
+    border: 1px solid var(--border-color);
+    padding: 13px 10px;
+    text-align: left;
+}
+
+/* BRAND COLUMN */
+
+tbody th {
+    background-color: var(--brand-color);
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/* STRIPED ROWS */
+
+tbody tr:nth-child(even) {
+    background-color: var(--light-blue);
+}
+
+/* HOVER EFFECT */
+
+tbody tr:hover {
+    background-color: #d4e5e9;
+}
+
+/* TABLE FOOTER */
+
+tfoot {
+    background-color: var(--dark-blue);
+    color: white;
+    font-weight: bold;
+}
+
+tfoot th,
+tfoot td {
+    border-color: var(--dark-blue);
+}
